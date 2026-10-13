@@ -1,4 +1,4 @@
-# Hi, I'm Deepali Sutar 👋
+# Hi, I'm Deepali Gopal Sutar 👋
 
 Data and analytics professional with 7 years of experience across financial services (Citi) and pharma consulting (ZS Associates). This page covers real work I've delivered: risk policy design, process automation, commercial resource allocation, and forecasting with client-facing team leadership.
 
