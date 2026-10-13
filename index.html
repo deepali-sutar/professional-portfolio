@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Deepali Sutar | Professional portfolio</title>
+<meta name="description" content="Case studies from 7 years of data and analytics work at Citi and ZS Associates.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5f7fa;--ink:#121c2b;--sub:#4a5668;--line:#d9dfe8;--accent:#1a5fd0;--card:#ffffff;--tint:#e8effb;
+--serif:'Source Serif 4',Georgia,'Times New Roman',serif;--sans:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1522;--ink:#e8edf5;--sub:#a3afc2;--line:#27334a;--accent:#7fb0ff;--card:#ffffff;--tint:#16233b}}
+:root[data-theme="dark"]{--bg:#0e1522;--ink:#e8edf5;--sub:#a3afc2;--line:#27334a;--accent:#7fb0ff;--card:#ffffff;--tint:#16233b}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 16px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--sans);-webkit-text-size-adjust:100%}
+.wrap{max-width:46rem;margin:0 auto;padding:0 22px 72px}
+a{color:var(--accent)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:3px}
+header{padding:64px 0 36px;border-bottom:1px solid var(--line)}
+h1{font:700 clamp(2.4rem,8vw,3.6rem)/1.05 var(--serif);letter-spacing:-.02em;margin:0 0 18px}
+.lede{font:500 clamp(1.15rem,3.4vw,1.4rem)/1.5 var(--serif);color:var(--ink);margin:0 0 14px;max-width:36rem}
+.small{color:var(--sub);font-size:.92rem;margin:0 0 6px}
+nav ul{list-style:none;margin:26px 0 0;padding:0;display:grid;gap:2px}
+nav a{display:block;padding:10px 0;border-top:1px solid var(--line);text-decoration:none;color:var(--ink);font-weight:500}
+nav a span{color:var(--sub);font-weight:400;display:block;font-size:.92rem}
+nav a:hover{color:var(--accent)}
+article{padding:56px 0 8px;border-bottom:1px solid var(--line)}
+h2{font:700 clamp(1.6rem,5vw,2.1rem)/1.2 var(--serif);letter-spacing:-.01em;margin:0 0 10px}
+.q{font:500 italic 1.15rem/1.5 var(--serif);color:var(--sub);margin:0 0 22px}
+.finding{background:var(--tint);border-left:4px solid var(--accent);padding:14px 18px;border-radius:0 8px 8px 0;margin:0 0 26px}
+.finding b{display:block;margin-bottom:2px}
+h3{font:600 1rem/1.4 var(--sans);margin:28px 0 8px}
+ul.d{padding-left:1.2rem;margin:0 0 18px}
+ul.d li{margin:0 0 8px}
+figure{margin:24px 0}
+figure img{display:block;width:100%;height:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}
+figcaption{color:var(--sub);font-size:.88rem;margin-top:8px}
+.tools{color:var(--sub);font-size:.92rem;margin:20px 0 40px}
+.tools b{color:var(--ink)}
+footer{padding:48px 0 0}
+footer p{margin:0 0 10px}
+@media (max-width:480px){body{font-size:16px}header{padding-top:40px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Deepali Sutar</h1>
+<p class="lede">Data and analytics professional. Seven years of work at Citi and ZS Associates: risk policy, automation, resource allocation and forecasting.</p>
+<p class="small">Client and employer details are anonymized. Charts marked illustrative show the shape of the work, not actual data.</p>
+<p class="small">Looking for product analytics projects? See <a href="https://deepali-sutar.github.io/">deepali-sutar.github.io</a>.</p>
+<nav aria-label="Case studies"><ul>
+<li><a href="#risk-policy">Standardizing risk policy across card portfolios<span>Citi: policy simulation and benchmarking</span></a></li>
+<li><a href="#launch">Allocating sales resources for a drug launch<span>ZS Associates: call planning and PDE</span></a></li>
+<li><a href="#automation">Automating a manual 8-hour compliance process<span>Citi: SAS macro framework for 120+ models</span></a></li>
+<li><a href="#forecasting">Forecasting and client delivery for a European pharma client<span>ZS Associates: patient-flow models and team lead</span></a></li>
+</ul></nav>
+</header>
+
+<article id="risk-policy">
+<h2>Standardizing risk policy across card portfolios</h2>
+<p class="q">Can inconsistent risk policies across portfolios become one, without distorting approval rates?</p>
+<p>Citi's Retail Services co-branded card portfolios each ran their own version of existing customer management (ECM) rules: the policies for bankruptcy, charge-off, revoked and delinquent accounts. Small differences between portfolios created operational complexity.</p>
+<div class="finding"><b>Key finding</b>Each candidate rule was tested against first-year performance versus risk benchmarks before it was recommended. The final standardized rules changed the overall approval rate by a net -0.01%, with gains in some portfolios and losses in others, each justified by performance data.</div>
+<figure><img src="ecm-waterfall.png" alt="Waterfall chart showing applications declined by bankruptcy, charge-off, revoked and delinquent rules" width="1400" height="800"><figcaption>Illustrative: how applications flow through the four rule categories.</figcaption></figure>
+<h3>What I did</h3>
+<ul class="d">
+<li>Collated every ECM rule from each portfolio's specification and grouped them into four categories, noting where variables and lookback periods differed.</li>
+<li>Rebuilt the production decisioning waterfall from raw application-level data and debugged it until it closely matched live production decisions.</li>
+<li>Flagged what each rule would do if applied to portfolios without it, and split lookback periods (for example 0-1 to 4-5 years for charge-offs) to find the best cut-off.</li>
+</ul>
+<figure><img src="ecm-lookback.png" alt="Bar chart of first-year loss rate by charge-off lookback window against a benchmark line" width="1400" height="800"><figcaption>Illustrative: a lookback window is reasonable to decline when its first-year performance breaches the benchmark.</figcaption></figure>
+<ul class="d">
+<li>Pulled first-year performance for affected accounts and compared GCL unit and dollar rates with Risk Assessment Framework (RAF) benchmarks.</li>
+<li>Aligned with a US-based director on one proposed rule per category, then built swap-in/swap-out views and a deck for the Acquisitions Strategy lead.</li>
+</ul>
+<p class="tools"><b>Tools:</b> SAS, Excel, RAF benchmarking</p>
+</article>
+
+<article id="launch">
+<h2>Allocating sales resources for a drug launch</h2>
+<p class="q">How do you launch a new drug's salesforce while protecting an existing priority brand?</p>
+<p>For a pharma client, sales rep calls are a finite resource: each rep had a fixed annual call capacity, spread across physicians by rating tier. A new drug launch needed a dedicated salesforce built from reps on existing teams.</p>
+<div class="finding"><b>Key finding</b>Giving both the launch brand and the existing priority brand the first promotion position in the restructured teams focused effort on the two brands that mattered most, as measured by Primary Detail Equivalents (PDE).</div>
+<figure><img src="launch-mechanics.png" alt="Two bar charts: PDE weight by promotion position, and annual calls per physician by rating tier" width="1800" height="760"><figcaption>Left: each position in a call carries a weight, and PDE sums them. Right: higher-rated physicians receive more calls per year.</figcaption></figure>
+<h3>What I did</h3>
+<ul class="d">
+<li>Merged physician and rep data into alignments (which rep can target which physician), then distributed each rep's annual calls by rating tier, from 60 calls for the top ratings down to 12 for the lowest.</li>
+<li>Tracked promotion with PDE: a rep promotes up to 3 drugs per call, weighted 1.0, 0.5 and 0.1 by position, against PDE targets for each drug.</li>
+<li>Moved a subset of reps into a new launch team, with the launch brand and the existing priority brand in first position and other brands in second and third.</li>
+<li>Delivered on strict quarterly timelines and presented findings regularly to the manager and client in the US.</li>
+</ul>
+<p>Also led the migration of the call-planning workflow from SAS to R ahead of SAS decommissioning, reducing project costs by about 90%.</p>
+<p class="tools"><b>Tools:</b> SAS, R, SQL, Javelin Call Plan Designer (proprietary ZS tool)</p>
+</article>
+
+<article id="automation">
+<h2>Automating a manual 8-hour compliance process</h2>
+<p class="q">Can a quarterly compliance process covering 120+ models run in about 30 minutes per model instead of 8 hours?</p>
+<p>At Citi, model monitoring required Model Review Documents (MRDs) for 120+ decision models every quarter. Each was a manual, roughly 8-hour process prone to error.</p>
+<div class="finding"><b>Key finding</b>A modular SAS macro framework cut MRD creation to about 30 minutes per model, roughly a 90% reduction, and removed manual calculation errors from a compliance-critical process.</div>
+<figure><img src="mrd-automation-chart.png" alt="Bar chart comparing about 8 hours manual with about 30 minutes automated" width="1400" height="800"><figcaption>Time to produce one MRD, before and after automation.</figcaption></figure>
+<h3>What I built</h3>
+<p>A separate SAS macro for each metric (KS, PSI, CSI, MAPE, and one-sample and two-sample Rank Order Break), each reusable across model types. A central script runs the macros, formats the output into the required tables and exports it into the Excel MRD template. This modular design let one codebase work across 120+ models with different data structures.</p>
+<figure><img src="mrd-architecture-diagram.png" alt="Diagram of five metric macros feeding an automation engine that outputs formatted tables into an Excel template" width="1800" height="1100"><figcaption>Five independent macros feed one orchestration script.</figcaption></figure>
+<p class="tools"><b>Tools:</b> SAS, Excel, KS, PSI, CSI, MAPE, Rank Order Break</p>
+</article>
+
+<article id="forecasting">
+<h2>Forecasting and client delivery for a European pharma client</h2>
+<p class="q">What does patient-flow forecasting look like when you are also leading the delivery team?</p>
+<p>As Business Insights and Analytics lead for a pharma client's Italy market, I managed the India-based team supporting forecasting and reporting across Oncology, Hematology and Immunology, working directly with the client team in Rome.</p>
+<div class="finding"><b>Approach</b>I forecasted revenue by estimating how many patients moved through each stage of care, from diagnosis to treatment with the drug, rather than extending past sales trends. Every projection could be traced back to patient numbers at each stage.</div>
+<figure><img src="forecast-funnel.png" alt="Horizontal funnel from diagnosed patients to patients on the drug" width="1400" height="760"><figcaption>Illustrative: patient-flow stages that drive the forecast.</figcaption></figure>
+<h3>What I did</h3>
+<ul class="d">
+<li>Led a team of 3 analysts, owned client requests end to end and turned them into team workstreams.</li>
+<li>Built Excel-based patient-funnel models projecting units and revenue over 1-year and 3-year horizons.</li>
+</ul>
+<figure><img src="forecast-projection.png" alt="Line chart of projected revenue across 1-year and 3-year horizons" width="1400" height="760"><figcaption>Illustrative: projections over the two planning horizons.</figcaption></figure>
+<ul class="d">
+<li>Built reporting dashboards for ongoing performance tracking.</li>
+<li>Presented forecasts and findings regularly to the client's associate director of Business Insights and Analytics, and spent several weeks on-site in Rome working with the client team.</li>
+</ul>
+<p class="tools"><b>Tools:</b> Excel, epidemiology-based forecasting</p>
+</article>
+
+<footer>
+<h2>Get in touch</h2>
+<p>Open to remote and international opportunities in data and analytics.</p>
+<p><a href="https://www.linkedin.com/in/deepali-gopal-sutar/">LinkedIn</a> and <a href="mailto:deepali0298@gmail.com">email</a></p>
+</footer>
+</div>
+</body>
+</html>
