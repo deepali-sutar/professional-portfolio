@@ -1,6 +1,6 @@
 # Hi, I'm Deepali Gopal Sutar 👋
 
-Data and analytics professional with 7 years of experience across financial services (Citi) and pharma consulting (ZS Associates). This page covers real work I've delivered: risk policy design, process automation, commercial resource allocation, and forecasting with client-facing team leadership.
+Data and analytics professional with 7 years of experience across banking and financial services (Citi) and pharma consulting (ZS Associates). This page covers real work I've delivered: risk policy design, process automation, commercial resource allocation, and forecasting with client-facing team leadership.
 
 *Looking for my product analytics learning projects instead? See [deepali-sutar.github.io](https://deepali-sutar.github.io/).*
 
@@ -11,7 +11,7 @@ Data and analytics professional with 7 years of experience across financial serv
 ## Case Study 1: Standardizing Risk Policy Across Card Portfolios
 **Can inconsistent risk policies across portfolios become one, without distorting approval rates?**
 
-Citi's Retail Services co-branded card portfolios each ran their own version of existing customer management (ECM) rules: the policies governing bankruptcy, charge-off, revoked and delinquent accounts. Slightly different rules in each portfolio created operational complexity.
+A global bank's Retail Services co-branded card portfolios each ran their own version of existing customer management (ECM) rules: the policies governing bankruptcy, charge-off, revoked and delinquent accounts. Slightly different rules in each portfolio created operational complexity.
 
 **Key finding:** Each candidate rule was tested against first-year performance versus risk benchmarks before it was recommended. The final standardized rules produced a net -0.01% change in approval rate at the overall level, with gains in some portfolios and losses in others, each justified by performance data.
 
@@ -58,7 +58,7 @@ For a pharma client, sales rep calls are a finite resource: each rep had a fixed
 ## Case Study 3: Automating a Manual 8-Hour Compliance Process
 **Can a quarterly compliance process covering 120+ models run in about 30 minutes per model instead of 8 hours?**
 
-At Citi, model monitoring required Model Review Documents (MRDs) for 120+ decision models every quarter. Each one was a manual, roughly 8-hour process prone to error.
+At a global bank, model monitoring required Model Review Documents (MRDs) for 120+ decision models every quarter. Each one was a manual, roughly 8-hour process prone to error.
 
 **Key finding:** A modular SAS macro framework cut MRD creation to about 30 minutes per model, roughly a 90% time reduction, while removing manual calculation errors from a compliance-critical process.
 
